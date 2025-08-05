@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #111;
+        color: #fff;
+    }
+
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 120px;
+        height: 100%;
+        background: #222;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    
+
+    .sidebar a {
+        display: block;
+        color: white;
+        padding: 25px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .sidebar a:hover {
+        background: #333;
+    }
+
+    #main {
+        margin-left: 120px;
+        padding: 20px;
+    }
+
+    header {
+        text-align: center;
+        padding: 50px 20px;
+        background-color: #000;
+    }
+
+    header h1 {
+        font-size: 40px;
+        margin: 0;
+    }
+
+    header p {
+        font-size: 18px;
+        color: #ccc;
+    }
+
+    header img {
+        max-width: 300px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    #about {
+        padding: 40px 20px;
+        max-width: 900px;
+        margin: auto;
+        color: #ddd;
+    }
+
+    #about h2 {
+        text-align: center;
+        color: #fff;
+    }
+
+    #about hr {
+        width: 200px;
+        margin: 10px auto;
+        border: 1px solid #555;
+    }
+
+  
+    .skill-bar {
+        background: white;
+        margin: 10px 0;
+        height: 25px;
+        width: 100%;
+    }
+
+    .skill-fill {
+        height: 25px;
+        background: #555;
+    }
+
+
+    .stats {
+        display: flex;
+        justify-content: space-around;
+        background: #ccc;
+        color: #000;
+        padding: 40px;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+
+   
+
+    footer {
+        text-align: center;
+        padding: 40px;
+        background: #000;
+        color: #888;
+       
+        margin-top: 40px;
+    }
+</style>
+</head>
+<body>
+
+
+<nav class="sidebar">
+   
+    <a href="#home">HOME</a>
+    <a href="#about">ABOUT</a>
+    <a href="#projects">PROJECTS</a>
+    <a href="#contact">CONTACT</a>
+</nav>
+
+
+<div id="main">
+
+    <!-- Header -->
+    <header id="home">
+        <h1>I'm Nabila Zafar</h1>
+        <br>
+        <p  style = "font-size: 25px"> UI/UX Designer & Front-End Enthusiast </p>  
+        <p style = "font-size: 18px"> I craft user-friendly designs that bring ideas to life.</p>
+        <br>     
+        <img src="C:\Users\PMLS\Desktop\project1\nabila.jpg" alt="My Photo" style="width:200px; height:200px; border-radius:50%; object-fit:cover;">
+    <br>
+    </header>
+
+
+    <section id="about">
+        <h2>About Me</h2>
+        <hr>
+        <br>
+        <p>I'm a passionate UI/UX designer based in Karachi with a strong foundation in design tools like Figma, Photoshop, and Illustrator.  
+        With previous front-end development experience, I understand how design and code work together to create seamless digital products.  
+        My goal? To design interfaces that are not only beautiful but also intuitive and functional for real users.
+            </p>
+            <br><br>
+        <h2>My Skills</h2>
+        <hr>
+        <br>
+        <p>Graphic Desiging </p>
+        <div class="skill-bar"><div class="skill-fill" style="width:95%;"></div></div>
+        <p>Web Design</p>
+        <div class="skill-bar"><div class="skill-fill" style="width:85%;"></div></div>
+        <p>UI/UX designing </p>
+        <div class="skill-bar"><div class="skill-fill" style="width:80%;"></div></div>
+        <br>
+<br>
+        <!-- UL Example -->
+        <h2>Tools I Use</h2>
+        <hr>
+        <br>
+        <ul>
+            <li>Figma</li>
+            <li>Adobe Photoshop</li>
+            <li>Illustrator</li>
+            <li>Visual Studio Code</li>
+        </ul>
+        <br>
+     
+        <section id="projects">
+        <h2>Projects</h2>
+        <hr>
+        <br>
+        <ol>
+            <li>  <b>Modern Portfolio Website  </b><br>
+                A responsive personal portfolio built with HTML, CSS, and clean UI/UX principles.</li>
+             <br>
+              <li> <b>Mobile App UI Concept </b><br>
+                A sleek and minimal app design prototype created in Figma focusing on user flow and accessibility.
+             </li>
+             <br>
+               <li> <b>Landing Page </b><br>
+                Designed and developed a landing page with a user-friendly layout and high conversion focus.
+             </li>
+           
+        </ol>
+        </section>
+        <br> <br>
+        <div class="stats">
+            <div style="font-size:24px;"><strong>11+</strong><br>Partners</div>
+            <div style="font-size:24px;"><strong>55+</strong><br>Projects Done</div>
+            <div style="font-size:24px;"><strong>89+</strong><br>Happy Clients</div>
+            <div style="font-size:24px;"><strong>150+</strong><br>Meetings</div>
+        </div>
+
+         <br><br><br>    
+
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+        <hr>
+        <br>
+        <p>Email : <a href="https://share.google/Rv3oaR6geMIPEv38Z">nabilazafar23@gmail.com</a> </p>
+        <p>GitHub: <a href="https://github.com/nabilazafar23-rgb" target="_blank">github.com/nabilazafar23-rgb</a></p>
+  
+        <p>Phone: +9233 45689357</p>
+    
+    </section>
+<br><br>
+
+    <footer>
+        <p>© 2025 Nabila Zafar | All Rights Reserved</p>
+    </footer>
+</div>
+</body>
+</html>
